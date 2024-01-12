@@ -1,4 +1,11 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .cards{
+  background-color: black;
   border: solid;
   border-color: blue;
   height: 25px;
@@ -8,8 +15,12 @@
   justify-content: center;
 }
 .terrain{
+  border: solid;
+  border-color: black;
   display: grid;
   grid-template-columns: repeat(4, 25%);
   height: 50vh;
   width: 50Vw;
+  align-items: center;
+  justify-content: center;
 }
