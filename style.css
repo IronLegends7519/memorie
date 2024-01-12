@@ -1,0 +1,15 @@
+.cards{
+  border: solid;
+  border-color: blue;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terrain{
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  height: 50vh;
+  width: 50Vw;
+}
